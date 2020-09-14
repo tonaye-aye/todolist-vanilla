@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo list</title>
+    <script
+      src="https://kit.fontawesome.com/0d4b9ea279.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("./style.css");
+    </style>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Todo-list</h1>
+      </header>
+      <nav>
+        <ul>
+          <li class="active" id="all">All</li>
+          <li id="complete">Complete</li>
+          <li id="incomplete">Incomplete</li>
+        </ul>
+      </nav>
+      <section>
+        <input type="text" />
+        <button class="todo-btn" type="submit">
+          <i class="fas fa-plus"></i>
+        </button>
+      </section>
+      <hr />
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+      </div>
+    </main>
+  </body>
+</html>
