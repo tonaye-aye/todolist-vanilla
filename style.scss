@@ -89,6 +89,9 @@ section {
     font-size: 1.1rem;
     border-radius: 0.2rem 0 0 0.2rem;
     font-family: "Quicksand", sans-serif;
+    &::placeholder {
+      opacity: 0.5;
+    }
   }
   button {
     border-radius: 0 0.2rem 0.2rem 0;
